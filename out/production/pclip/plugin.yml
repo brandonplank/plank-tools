@@ -1,0 +1,10 @@
+name: Pclip
+version: 0.1
+author: Brandon Plank
+main: org.brandonplank.pclip.Main
+api-version: 1.14
+commands:
+  pclip:
+    description: Noclip but plank owo
+    usage: /<command>
+    aliases: [noclip, pclip, clip]
