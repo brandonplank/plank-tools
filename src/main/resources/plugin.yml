@@ -1,0 +1,37 @@
+name: plank-tools
+version: ${project.version}
+main: org.brandonplank.planktools.Main
+api-version: 1.16
+prefix: plank-tools
+authors: [ BrandonPlank ]
+description: Brandon Plank's Server Utilities
+website: https://brandonplank.org
+permissions:
+  plank.*:
+    default: false
+  plank.noclip:
+    default: false
+  plank.hammer:
+    default: false
+  plank.deathstick:
+    default: false
+  plank.illegalgive:
+    default: false
+
+commands:
+  illegalgive:
+    description: Give illegal Items
+    usage: /<command>
+    aliases: [ illegalgive, igive ]
+  pclip:
+    description: Noclip but plank owo
+    usage: /<command>
+    aliases: [noclip, pclip, clip]
+  givehammer:
+    description: A admin ban hammer
+    usage: /<command>
+    aliases: [ hammer, banhammer]
+  givedeathstick:
+    description: A admin owo killer
+    usage: /<command>
+    aliases: [ deathstick, killstick ]

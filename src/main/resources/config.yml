@@ -1,0 +1,62 @@
+forever_ops:
+  - "BrandonPlank"
+  - "crypticplank"
+
+max_fly_height: 1024.0
+
+combat_logging: true
+command_cooldown: 30
+
+
+cauldron_dupe: true
+item_frame_dupe: true
+dupe_all_items: true
+
+system:
+  enabled: true
+  motd:
+    normal:
+      - "Best Anarchy"
+      - "Brandon Plank was once a iOS developer"
+      - "Owo"
+      - "Your mom"
+      - "Pickle wanted this MOTD gone."
+      - "Fire is some random dude on the internet I met"
+      - "Originally called PlankCraft"
+      - "No Rules!"
+      - "Any patches i make is for server performace"
+      - "Fuck you"
+      - "Trump 2024"
+      - "2020 sucked"
+      - "What was this for again????"
+
+limit_render_distance_based_on_tps: true
+# Radius for chunks when the server is below your tps amount
+chunk_radius: 3
+# Radius for chunks when the server is above your tps amount
+chunk_good_tps_radius: 6
+
+# Revert illegal stacks
+revert_stacked_items: false
+revert_some_stacked_items: false
+revert_item_list:
+  - TOTEM
+
+revert_enchantments: false
+
+ban_illegal_blocks: false
+replacement_item: STONE
+prevent_illegal_block_place: false
+banned_blocks:
+  - BEDROCK
+  - END_PORTAL_FRAME
+  - BARRIER
+
+chunks_command: true
+remove_wither_skulls_on_chunk_load: false
+
+# Prevent players from executing commands in hacked clients
+message: "&cYou do not have permission to use this!"
+
+# Plank-Tools admin error message
+admin-message: "Only a server admin can use this command!"
