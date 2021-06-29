@@ -40,7 +40,7 @@ public class FixChunk implements Listener {
                         Block block = null;
                         Block block2 = null;
                         // 1.17 changes up ahead
-                        if(PrivatePlugin.getServer().getVersion().contains("1.17")){
+                        if(PrivatePlugin.getServer().getVersion().contains("1.18")){
                             if(player.getWorld().getName().equals("world")){
                                 block = PrivatePlugin.getServer().getWorld("world").getBlockAt(newX, -64 , newZ);
                             } else if(player.getWorld().getName().equals("world_nether")){
